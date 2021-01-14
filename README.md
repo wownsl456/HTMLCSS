@@ -1,2 +1,0 @@
-# HTMl.CSS
-HTML과 CSS
