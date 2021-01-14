@@ -1,57 +1,27 @@
-<!DOCTYPE html> 
-<html>
-	<head>
-		<title>My First Website </title>
-		<meta charset="utf-8">
-			<style>    
-				h1 {
-					text-align: center;                                                       /* 정렬태그 <text-align>*/
-					color: lime;                                                              /* 색갈태그 <color>*/
-				}	
+style을 적용하는 방법
 
-				h2{
-					text-align: right;
-					color: hotpink;
-				}
-				h3 {
-					text-align: right;
-					color: blue;
-				}
-				i {
-					font-size: 64px;                                                          /*글자크기태그 <font-size>*/
-					color: green;
-				}
-				img {					  
-					display: block;
-					margin-left: auto;                                                        /*이미지 가운데 정렬 */
-					margin-right: auto;
-				}
-			</style>
-	</head>
+1. <style> 태그
 
-	<body>
-		<h1>내 첫 <i>HTML</i> 프로젝트 </h1>
-
-		<h2>이름: 유재준</h2>
-
-		<h3>이메일: wownsl456@naver.com</h3>
-
-		<img src="https://nexus.leagueoflegends.com/
-		wp-content/uploads/2019/06/Banner_T2_Image_tnp3w61gzna8r2n3rojp.jpg"
-		height="300">                                                                    <!-- 이미지 태그(인터넷용) <img src=""> --> 
-					                                                                           <!-- 이미지 태그 (피시용) images/xx.jpg -->
-		                                                                                 <!-- 이미지 가로 크기 문법 width="" 세로 크기 문법 height="" -->
-
-
-		<p>나는 <i>HTML</i>을 좋아한다. 앞으로 이 강의를 듣고, 나만의 <b>웹사이트</b>를 만들어볼 계획이다. 
-    코드잇과 함계라면 무엇이든 가능하리라 믿는다. 아자아자 화이팅!</p>
-		<p>이번 <i>HTML</i> 수업 뒤에는 무엇이 기다리고 있을까? 설레는 마음으로 이번 과정을 끝낸 후, 
-    다음 <i>Javascript</i> 수업을 들어 <b>웹사이트</b>를 더 역동적으로 만들어봐야겠다!</p>
-
-		<a href="http://google.com"     
-		target="_blank">구글로 가는 링크</a>                                                 <!-- 링크태그 <a> --> <!-- 새페이지로 이동 = target="_blank" -->
-
-		<a href="folder1/page1.html">page 1</a>
-		<a href="folder1/folder2/page2.html">page 2</a>
-	</body>
-</html>
+ <style>
+ h1{
+    color: green;
+    text-align: center;
+    }
+   </style>
+   
+2. style 속성
+  <h1 style="color: green; text-align: center;">hello world!</h1>
+  <p style="font-size: 18px;">hihi</p>
+  
+3. 외부 CSS파일 + <link> 태그
+  
+  css/style.css = 
+                h1 {
+                color: green;
+                text-align: center;
+                }
+                p  {
+                font-size: 18px;
+                }
+                
+   <limk href="css/style.css" rel="stylesheet">
