@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>styling-text</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">			<!-- google font 링크 가져오기 -->
+		<style>
+		
+			
+			h1{
+				font-family: "Times New Roman";		/*폰트 종류*/	/*Serif - Times New Roman(궁서체)*/ /*Sans-Self - Arial(굴림체)*/
+			}													/*Monosapce - courier(courier New)*/ /*Cursive - Comic Sans Ms(필기체)*/
+																/*Fantasy - Impact(특이한 글귀 = 짧은 글귀에 사용된다)*/
+            h2{
+ 				font-family: 'Yusei Magic', sans-serif;						/*google font 사이트에서 CSS 코드 가져오기*/
+
+ 			}
+
+			p{
+				font-size: 32px;
+				font-weight: 700;           /*글자 굵기*/
+				text-align: center;			/*글자 정렬방식*/
+				text-decoration: underline; /*글자 효과 밑줄=Underline , 위에 줄=Overline , 줄 관통=line-through 줄 없음=none*/    
+				
+			}
+			.div1{
+				font-size: 100%;     /*절대적인 방법 = px,pt*/
+			}
+			}						 /*상대적인 방법 = em,%*/
+			.div2{
+				font-size: 200%;
+			}
+			.div3{
+				font-size: 200%;
+			}
+			</style>
+	</head>
+
+	<body>
+	   <h1>sung</h1>
+	   <h2>nam doo </h2>
+	   <p>텍스트를 다양하게 스타일링 해봅시다!</p>
+	   <div class="div1">
+	   	div1
+	   	<div class="div2">
+	   	div2
+	   	<div class="div3">
+	   	div3
+	   	</div>
+	</body>
+</html>
