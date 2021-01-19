@@ -6,7 +6,7 @@
 	background-size: cover;
 	background-position: center center;
 }										/*background-repeat 정리
-											background-repaet은 이미지를 반복시킬 것인지 아닐 것인지, 
+										background-repaet은 이미지를 반복시킬 것인지 아닐 것인지, 
 										그리고 반복시킨다면 어떤 방식으로 반복시킬 것인지 정해주는 속성이다.
 																	
 										background-repeat: no-repeat; (반복하지 않음)
