@@ -1,11 +1,12 @@
-	html 			/*태그 이름*/							css	
-<h1>Heading 1</h1>								/* 모든 <h1> 태그 */
+	html 				/*태그 이름*/						css	
+<h1>Heading 1</h1>										/* 모든 <h1> 태그 */
 												h1 {
   												color: orange;
 												}
 <h2>Heading 2</h2>
+
 					/*클래스,아이디*/
-<p class="important">Paragraph 1</p>			/* 'important'라는 클래스를 갖고 있는 모든 태그 */
+<p class="important">Paragraph 1</p>								/* 'important'라는 클래스를 갖고 있는 모든 태그 */
 												.important {
   												color: orange;
 												}
@@ -19,8 +20,9 @@
 <p class="important">Paragraph 4</p>
 <p id="favorite">Paragraph 5</p>
 <p>Paragraph 6</p>
+
 					/*자식(children)*/
-<i>Outside</i>									/* 'div1' 클래스를 갖고 있는 요소의 자식 중 모든 <i> 태그 */
+<i>Outside</i>											/* 'div1' 클래스를 갖고 있는 요소의 자식 중 모든 <i> 태그 */
 												.div1 i {
   												color: orange;
   												}
@@ -29,8 +31,9 @@
   <p>Blah blah <i>Inside 2</i></p>
   <i>Inside 3</i>
 </div>
+
 					/*직속 자식(direct children)*/
-<i>Outside</i>									/* 'div1' 클래스를 갖고 있는 요소의 직속 자식 중 모든 <i> 태그 */
+<i>Outside</i>											/* 'div1' 클래스를 갖고 있는 요소의 직속 자식 중 모든 <i> 태그 */
 												.div1 > i {
   												color: orange;
 												}
@@ -39,8 +42,9 @@
   <p>Blah blah <i>Inside 2</i></p>
   <i>Inside 3</i>
 </div>
+
 					/*복수 선택*/
-<p class="one">Outside 1</p>					/* 'two' 클래스를 가지고 있는 태그 모두와 'four' 클래스를 가지고 있는 태그 모두 선택 */
+<p class="one">Outside 1</p>									/* 'two' 클래스를 가지고 있는 태그 모두와 'four' 클래스를 가지고 있는 태그 모두 선택 */
 												.two, .four {
   												color: orange;
 												}
@@ -52,8 +56,9 @@
   <p class="four">Inside 4</p>
   <p class="five">Inside 5</p>
 </div>
+
 					/*여러 조건*/
-<p class="outside one">Outside 1</p>			/* 'outside' 클래스를 갖고 있으면서 'one' 클래스도 갖고 있는 태그 */
+<p class="outside one">Outside 1</p>								/* 'outside' 클래스를 갖고 있으면서 'one' 클래스도 갖고 있는 태그 */
 												.outside.one {
   												color: blue;
 												}
@@ -70,8 +75,9 @@
   <p class="inside four">Inside 4</p>
   <p class="inside five">Inside 5</p>
 </div>
+
 					/*가상 클래스(pseudo-class)*/
-<div class="div1">								/* .div1의 자식인 <p> 태그 중 3번째 */
+<div class="div1">										/* .div1의 자식인 <p> 태그 중 3번째 */
 												.div1 p:nth-child(3) {
 												  color: blue;
 												}
@@ -103,8 +109,9 @@
   <p>Paragraph 5</p>
   <p>Paragraph 6</p>
 </div>
+
 					/*마우스 오버(hover)*/
-<h1>Hello World!</h1>							h1 {
+<h1>Hello World!</h1>										h1 {
  												 color: orange;
 												}
 									
