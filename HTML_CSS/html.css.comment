@@ -1,0 +1,21 @@
+<!-- 내용 -->의 형태로 되어 있는 부분이 HTML의 comment 입니다.
+
+ex:<!-- 첫 번쨰 영화: 굿 월 헌팅 -->
+    <div class="movie">
+    <h2>Good will Hunting (굿 월 헌팅)</h2>
+    <p>수학, 법학, 역사학 등 모든 분야에 재능이 있는 월은 천재적인 두뇌를 가지고 있다</p>
+    </div>
+    
+    
+ /* 내용 */의 형태로 되어 있는 부분이 CSS의 comment 입니다.
+ 
+ ex:/* 영화 제목 */
+    .move h2{
+    color: #4d9fff;
+    text-align: center;
+    font-size: 48px;}
+    
+    /* 영화 줄거리 */
+    .movie p {
+    font-size: 24px;
+    }

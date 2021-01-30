@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+
+<html>
+	<head>
+		<title>margin,padding</title>
+		<meta charset="utf-8">
+		<style>
+			h1 {	
+				border: 5px solid red;					
+
+			}
+			.p1 {																			
+				border: 5px solid red;									
+				width: 500px;					       /*요소를 가운데로 정렬 하는 방법																																	margin값을 auto로 설정 (auto=자동으로 계산)
+											margin-right: auto;									
+											margin-left: auto;
+										(왼쪽과 오른쪽을 똑같이 함으로써 요소는 가운데 정렬이 된다)*/
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.p2 {
+				border: 5px solid red;
+				margin: 80px 30px 75px 50px;							
+			}								/*padding과margin을 주는 몇가지 방법 */
+											
+											/* border: 1px sopadding: 20px 60px 40px 120px;
+											 padding-top(시계방향으로 위,오른쪽,아래,왼쪽)
+											 padding-bottom: 40px;
+											 padding-left:padding: 50px;
+											 padding-right(위,아래,왼쪽,오른쪽에 똑같은 padding 값을 주고 싶을 경우)
+																											
+											 padding: 50px 100px;
+											 (위,아래에 50px , 왼쪽,오른쪽에 100px을 주고 싶을 경우)
+																											
+												margin을 주는 방법은 padding과 똑같다. */		
+
+		</style>
+	</head>
+	<body>
+		<h1>Box Model</h1>
+
+		<p class="p1">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ligula sapien, rutrum sed vestibulum eget, 
+			rhoncus ac erat. Aliquam erat volutpat. Sed convallis scelerisque enim at fermentum. 
+		</p>
+		<p class="p2">
+			Aliquam consectetur, est ac auctor iaculis, odio mi bibendum leo, in congue neque velit vel enim. Nullam vitae 
+			justo at mauris sodales feugiat. Praesent pellentesque ipsum eget tellus imperdiet ultrices.
+		</p>
+	</body>
+</html>

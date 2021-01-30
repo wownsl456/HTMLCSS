@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>box.sizing</title>
+		<meta charset="utf-8">
+		<style>
+			* {
+				box-sizing: border-box;				/*box-sizing 정리
+										box-sizing: border-box; ( 이 속성을 사용하면 width와 height는 
+										테두리와 패딩과 내용물을 모두 포함한 길이가 된다. 
+										요즘 개발자들은 모든 요소에 box-sizing: border-box;를 서주는 추세이다)
+										*요소 (간편하고 한 번에 처리하기 위해 모든 요소를 나타내는 *에 속성을 써주면 된다.)*/
+			}
+
+			.p1 {
+				border: 10px solid red;
+				width: 300px;
+				height: 200px;
+				margin-bottom: 50px;
+			}
+			.p2{
+				border: 10px solid red;
+				width: 300px;
+				height: 200px;
+				padding: 40px;
+			}
+		
+		</style>
+		
+	</head>
+	<body>
+		<p class="p1">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ligula sapien, rutrum sed vestibulum eget, 
+			rhoncus ac erat. Aliquam erat volutpat. Sed convallis scelerisque enim at fermentum. 
+		</p>
+		<p class="p2">
+			Aliquam consectetur, est ac auctor iaculis, odio mi bibendum leo, in congue neque velit vel enim. Nullam vitae 
+			justo at mauris sodales feugiat. Praesent pellentesque ipsum eget tellus imperdiet ultrices.
+		</p>
+	</body>
+</html>
